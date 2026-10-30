@@ -1,0 +1,119 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Cabecera con logo y menú */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.logo-cabecera {
+    max-width: 10%;
+    height: auto;
+}
+
+/* Botones de navegación */
+.boton-nav {
+    text-decoration: none;
+    color: black;
+    background-color: hotpink;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en botones */
+.boton-nav:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Botón activo */
+.boton-nav.activo {
+    background-color: white;
+    color: black;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Barra lateral */
+aside {
+    width: 25%;
+    background-color: black;
+    padding: 15px;
+}
+
+/* Sección principal */
+section {
+    color: black;
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    color: black;
+}
+
+/* Galería de fichas */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Fichas de animales */
+.ficha {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Animación al pasar el mouse */
+.ficha:hover {
+    transform: scale(1.05);
+}
+
+.ficha img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Listas de donaciones */
+ul {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: hotpink;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
